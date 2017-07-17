@@ -1,3 +1,12 @@
+* {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+}
+
 html {
     min-height: 100%;
     overflow: hidden;
@@ -42,20 +51,18 @@ body {
 .anim-typewriter {
     position: relative;
     color: #050D10;
-    top: 50%;  
-    width: 11em;
+    width: 28em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
+    font-size: 100%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);    
 }
 
 .anim-typewriter {
-    animation: typewriter 2.5s steps(30) 1s 1 normal both,
-               blinkTextCursor 500ms steps(30) infinite normal;
+    animation: typewriter 6s steps(60) 1s 1 normal both,
+               blinkTextCursor 1s steps(60) infinite normal;
 }
 
 @keyframes typewriter {
@@ -63,7 +70,7 @@ body {
         width: 0;
     }
     to {
-        width: 11em;
+        width: 28em;
     }
 }
 
