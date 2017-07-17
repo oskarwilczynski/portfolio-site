@@ -35,10 +35,15 @@ body {
     padding: 5px;
 }
 
+.jumbotron {
+    background-color: #18CAE6;
+}
+
 .anim-typewriter {
     position: relative;
+    color: #050D10;
     top: 50%;  
-    width: 24em;
+    width: 11em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
     font-size: 180%;
@@ -49,8 +54,8 @@ body {
 }
 
 .anim-typewriter {
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+    animation: typewriter 2.5s steps(30) 1s 1 normal both,
+               blinkTextCursor 500ms steps(30) infinite normal;
 }
 
 @keyframes typewriter {
@@ -58,13 +63,13 @@ body {
         width: 0;
     }
     to {
-        width: 24em;
+        width: 11em;
     }
 }
 
 @keyframes blinkTextCursor {
     from {
-        border-right-color: rgba(255,255,255,.75);
+        border-right-color: rgba(5, 13, 16, 0.7);
     }
     to {
         border-right-color: transparent;
