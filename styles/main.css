@@ -45,6 +45,8 @@ body {
 }
 
 .jumbotron {
+    height: 25vw;
+    margin-bottom: 0;
     background-color: #18CAE6;
     text-align: center;
 }
@@ -53,7 +55,7 @@ body {
     position: relative;
     display: inline-block;
     margin: 0 auto;
-    font-size: 180%;
+    font-size: 250%;
     overflow: hidden;
     font-family: "Consolas";
     font-weight: bold;
@@ -61,41 +63,41 @@ body {
 }
 
 .typed-cursor {
-  opacity: 1;
-  font-size: 180%;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  -ms-animation: blink 0.7s infinite;
-  -o-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
+    opacity: 1;
+    font-size: 250%;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
 }
 
 @-keyframes blink {
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
         
 @-webkit-keyframes blink{
-  0% { opacity:1; }          
-  50% { opacity:0; }
-  100% { opacity:1; }
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
         
 @-moz-keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 
 @-ms-keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 
 @-o-keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
