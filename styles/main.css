@@ -46,39 +46,56 @@ body {
 
 .jumbotron {
     background-color: #18CAE6;
-}
-
-.anim-typewriter {
-    position: relative;
-    color: #050D10;
-    width: 28em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 100%;
     text-align: center;
-    white-space: nowrap;
+}
+
+.element {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 180%;
     overflow: hidden;
+    font-family: "Consolas";
+    font-weight: bold;
+
 }
 
-.anim-typewriter {
-    animation: typewriter 6s steps(60) 1s 1 normal both,
-               blinkTextCursor 1s steps(60) infinite normal;
+.typed-cursor {
+  opacity: 1;
+  font-size: 180%;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
 }
 
-@keyframes typewriter {
-    from {
-        width: 0;
-    }
-    to {
-        width: 28em;
-    }
+@-keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+        
+@-webkit-keyframes blink{
+  0% { opacity:1; }          
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+        
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
 
-@keyframes blinkTextCursor {
-    from {
-        border-right-color: rgba(5, 13, 16, 0.7);
-    }
-    to {
-        border-right-color: transparent;
-    }
+@-ms-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-o-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
