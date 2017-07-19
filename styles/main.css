@@ -45,26 +45,30 @@ body {
 }
 
 .jumbotron {
-    height: 25vw;
+    height: 35vw;
     margin-bottom: 0;
-    background-color: #18CAE6;
+    background-image: url(../images/slide_1.jpg);
     text-align: center;
 }
 
 .element {
     position: relative;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #18CAE6;
     display: inline-block;
     margin: 0 auto;
-    font-size: 250%;
+    padding-top: 7%;
+    font-size: 280%;
     overflow: hidden;
     font-family: "Consolas";
     font-weight: bold;
-
 }
 
 .typed-cursor {
     opacity: 1;
-    font-size: 250%;
+    font-size: 280%;
+    color: white;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     -ms-animation: blink 0.7s infinite;
