@@ -47,8 +47,9 @@ body {
 .jumbotron {
     height: 35vw;
     margin-bottom: 0;
-    background-image: url(../images/slide_1.jpg);
+    background-image: url(../images/slide_3.jpg);
     text-align: center;
+    background-size: cover;
 }
 
 .element {
@@ -63,17 +64,19 @@ body {
     overflow: hidden;
     font-family: "Consolas";
     font-weight: bold;
+    text-shadow: black 0px 0px 10px;
 }
 
 .typed-cursor {
     opacity: 1;
     font-size: 280%;
     color: white;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    -ms-animation: blink 0.7s infinite;
-    -o-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+    -webkit-animation: blink 1s infinite;
+    -moz-animation: blink 1s infinite;
+    -ms-animation: blink 1s infinite;
+    -o-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+    text-shadow: black 0px 0px 10px;
 }
 
 @-keyframes blink {
