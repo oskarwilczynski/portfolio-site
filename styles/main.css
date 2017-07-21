@@ -53,7 +53,7 @@ body {
     background-size: cover;
 }
 
-.element {
+#element {
     position: relative;
     color: white;
     text-decoration: underline;
@@ -109,7 +109,19 @@ body {
     100% { opacity:1; }
 }
 
-.about {
-    height: 35vw;
-    background-color: #18CAE6;
+#about {
+    background-color: #050D10;
+    height: 20vw;
+}
+
+#about-h1 {
+    padding-top: 2%;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #18CAE6;
+    letter-spacing: 0; /* EDIT THIS */
+}
+
+#about-p {
+    color: white;
 }
