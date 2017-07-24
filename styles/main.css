@@ -112,8 +112,8 @@ body {
 }
 
 #about {
-    background-color: #050D10;
-    height: 30vw;
+    background-color: #18CAE6;
+    height: 32vw;
 }
 
 h1 {
@@ -124,6 +124,10 @@ h1 {
     text-decoration-color: #18CAE6;
 }
 
+#about-h {
+    text-decoration-color: #050D10;
+}
+
 .about-p {
     font-size: 1.5em;
     color: white;
@@ -132,9 +136,13 @@ h1 {
 
 #skills {
     background-color: #050D10;
+    height: 33vw;
 }
 
 #skills-confident, #skills-soon {
+    position: relative;
+    overflow: hidden;
+    display: inline;
     color: white;
-    font-size: 1em;
+    font-size: 1.18em;
 }
