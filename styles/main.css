@@ -148,10 +148,10 @@ h1 {
 
 #skills-btn {
     position: absolute;
+    cursor: pointer;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
-    background-color: #18CAE6;
     bottom: 2.5%;
 }
