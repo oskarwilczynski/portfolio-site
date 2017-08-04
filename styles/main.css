@@ -140,7 +140,6 @@ h1 {
 }
 
 #skills-confident, #skills-soon {
-    position: relative;
     overflow: hidden;
     display: inline;
     color: white;
@@ -148,6 +147,11 @@ h1 {
 }
 
 #skills-btn {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
     background-color: #18CAE6;
-    margin-bottom: 3%;
+    bottom: 2.5%;
 }
