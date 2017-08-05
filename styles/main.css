@@ -147,6 +147,9 @@ h1 {
 }
 
 #skills-btn {
+    background-color: #18CAE6;
+    border-radius: 4px;
+    box-shadow: 0 3px 0 0 #007299;
     position: absolute;
     cursor: pointer;
     margin-left: auto;
@@ -154,4 +157,15 @@ h1 {
     left: 0;
     right: 0;
     bottom: 2.5%;
+}
+
+#skills-btn:hover {
+    background-color: #0d6d7c;
+}
+
+#skills-btn:active {
+    background-color: #33a6cc;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
 }
