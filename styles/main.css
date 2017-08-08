@@ -8,10 +8,6 @@
               user-select: none;
 }
 
-[hidden] {
-  display: none !important;
-}
-
 html {
     min-height: 100%;
     overflow-x: hidden;
@@ -141,37 +137,4 @@ h1 {
 #skills {
     background-color: #050D10;
     height: 42vw;
-}
-
-#skills-confident, #skills-soon {
-    overflow: hidden;
-    display: inline;
-    color: white;
-    font-size: 1.18em;
-}
-
-#skills-btn {
-    background-color: #18CAE6;
-    color: white;
-    border-radius: 6px;
-    box-shadow: 0 3px 0 0 #0b2833;
-    position: absolute;
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    bottom: 2.5%;
-}
-
-#skills-btn:hover {
-    background-color: #0d6d7c;
-}
-
-#skills-btn:active {
-    background-color: #33a6cc;
-    transition-duration: 0.05s;
-    box-shadow: none;
-    margin-bottom: -3px;
-    margin-top: 3px;
 }
