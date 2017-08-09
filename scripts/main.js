@@ -3,3 +3,9 @@ var typed = new Typed('#hello-header', {
     typeSpeed: 25,
     cursorChar: '_'
 });
+
+$(".skill-icon").mouseenter(function() {
+    $(this).css("text-decoration", "underline").css("text-decoration-color", "#18CAE6");
+}).mouseleave(function() {
+     $(this).css("text-decoration", "none");
+});

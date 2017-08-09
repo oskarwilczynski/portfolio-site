@@ -138,3 +138,18 @@ h1 {
     background-color: #050D10;
     height: 42vw;
 }
+
+.row-skills {
+    margin: 5%;
+}
+
+.skill-icon {
+    font-size: 7.27vw;
+    color: white;
+    transition: color 0.5s;
+}
+
+.skill-icon:hover {
+    color: #18CAE6;
+    transition-duration: 0.5s;
+}
