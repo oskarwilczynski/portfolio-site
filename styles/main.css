@@ -139,17 +139,32 @@ h1 {
     height: 42vw;
 }
 
-.row-skills {
-    margin: 5%;
+.skills-row {
+    margin-top: 4%;
 }
 
 .skill-icon {
-    font-size: 7.27vw;
+    font-size: 8vw;
     color: white;
     transition: color 0.5s;
 }
 
+.skill-icon-title {
+    opacity: 0;
+    margin-top: 5%;
+    font-size: 2vw;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #18CAE6;
+    transition: opacity 0.5s;
+}
+
 .skill-icon:hover {
     color: #18CAE6;
-    transition-duration: 0.5s;
+    transition: color 0.5s;
+}
+
+.skill-icon-title:hover {
+    opacity: 1;
+    transition: opacity 0.5s;
 }

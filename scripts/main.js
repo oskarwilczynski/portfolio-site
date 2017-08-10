@@ -5,7 +5,7 @@ var typed = new Typed('#hello-header', {
 });
 
 $(".skill-icon").mouseenter(function() {
-    $(this).css("text-decoration", "underline").css("text-decoration-color", "#18CAE6");
+    $(this).css();
 }).mouseleave(function() {
-     $(this).css("text-decoration", "none");
+     $(this).css();
 });
