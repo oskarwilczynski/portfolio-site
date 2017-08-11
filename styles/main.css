@@ -17,6 +17,10 @@ body {
     padding-top: 55px;
 }
 
+/*
+* === NAVBAR ===
+*/
+
 .navbar {
     background-color: #050D10;
 }
@@ -44,6 +48,10 @@ body {
     border-bottom-color: #18CAE6;
     padding: 5px;
 }
+
+/*
+* === JUMBOTRON ===
+*/
 
 .jumbotron {
     height: 35vw;
@@ -111,6 +119,10 @@ body {
     100% { opacity:1; }
 }
 
+/*
+* === ABOUT ===
+*/
+
 #about {
     background-color: #18CAE6;
     height: 32vw;
@@ -137,6 +149,10 @@ body {
     color: white;
     letter-spacing: 0.25em;
 }
+
+/*
+* === SKILLS ===
+*/
 
 #skills {
     background-color: #050D10;
@@ -172,6 +188,10 @@ body {
     opacity: 1;
     transition: opacity 0.5s;
 }
+
+/*
+* === PROJECTS ===
+*/
 
 #projects {
     background-color: #18CAE6;
