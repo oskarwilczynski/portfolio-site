@@ -3,9 +3,3 @@ var typed = new Typed('#hello-header', {
     typeSpeed: 25,
     cursorChar: '_'
 });
-
-$(".skill-icon").mouseenter(function() {
-    $(this).css();
-}).mouseleave(function() {
-     $(this).css();
-});

@@ -116,7 +116,7 @@ body {
     height: 32vw;
 }
 
-h1 {
+.header-dark, h1 {
     padding-top: 2%;
     padding-bottom: 2%;
     color: white;
@@ -124,7 +124,11 @@ h1 {
     text-decoration-color: #18CAE6;
 }
 
-#about-h {
+.header-light {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    text-decoration: underline;
     text-decoration-color: #050D10;
 }
 
@@ -159,12 +163,16 @@ h1 {
     transition: opacity 0.5s;
 }
 
-.skill-icon:hover {
+.skill-col:hover .skill-icon {
     color: #18CAE6;
     transition: color 0.5s;
 }
 
-.skill-icon-title:hover {
+.skill-col:hover .skill-icon-title {
     opacity: 1;
     transition: opacity 0.5s;
+}
+
+#projects {
+    background-color: #18CAE6;
 }
