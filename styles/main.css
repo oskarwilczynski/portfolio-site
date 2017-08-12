@@ -144,6 +144,10 @@ body {
     text-decoration-color: #050D10;
 }
 
+h2 {
+    font-size: 3vw;
+}
+
 .about-p {
     font-size: 1.5em;
     color: white;
@@ -195,4 +199,24 @@ body {
 
 #projects {
     background-color: #18CAE6;
+}
+
+.projects-img {
+    border-radius: 0;
+}
+
+.projects-card {
+    background-color: #050D10;
+    color: white;
+    border-radius: 0;
+    border-style: none;
+}
+
+.projects-btn {
+    border-style: none;
+    border-radius: 25px;
+}
+
+.projects-btn:hover {
+    filter: brightness(85%);
 }
