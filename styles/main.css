@@ -210,11 +210,21 @@ h2 {
     color: white;
     border-radius: 0;
     border-style: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.projects-card-title {
+    font-size: 3vw;
+    text-decoration: underline;
+    text-decoration-color: #18CAE6;
 }
 
 .projects-btn {
     border-style: none;
-    border-radius: 25px;
+    border-radius: 100px;
+    height: 25%;
+    margin-bottom: 0.5vw;
+    line-height: 0;
 }
 
 .projects-btn:hover {
