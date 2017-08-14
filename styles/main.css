@@ -221,6 +221,7 @@ h2 {
 
 .projects-btn {
     border-style: none;
+    color: #050D10;
     border-radius: 100px;
     height: 25%;
     margin-bottom: 0.5vw;
@@ -228,5 +229,5 @@ h2 {
 }
 
 .projects-btn:hover {
-    filter: brightness(85%);
+    color: #050D10;
 }
