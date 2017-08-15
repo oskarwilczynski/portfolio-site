@@ -219,15 +219,26 @@ h2 {
     text-decoration-color: #18CAE6;
 }
 
-.projects-btn {
+.projects-btn-top {
     border-style: none;
     color: #050D10;
     border-radius: 100px;
-    height: 25%;
+    height: 2vw;
     margin-bottom: 0.5vw;
     line-height: 0;
 }
 
-.projects-btn:hover {
+.projects-btn-top:hover {
     color: #050D10;
+}
+
+.projects-btn-top:active, .projects-btn-top:focus, 
+.projects-btn-bottom:active, .projects-btn-bottom:focus {
+   box-shadow: none;
+}
+
+.projects-btn-bottom {
+    cursor: pointer;
+    color: #18CAE6;
+    border-color: #18CAE6;
 }
