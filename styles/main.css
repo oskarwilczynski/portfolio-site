@@ -49,6 +49,13 @@ body {
     padding: 5px;
 }
 
+.navbar-fixed-pos {
+    display: block;
+    position: relative;
+    top: -55px;
+    visibility: hidden;
+}
+
 /*
 * === JUMBOTRON ===
 */
@@ -241,4 +248,8 @@ h2 {
     cursor: pointer;
     color: #18CAE6;
     border-color: #18CAE6;
+}
+
+.projects-btn-bottom:hover {
+    background-color: #18CAE6;
 }
