@@ -44,9 +44,7 @@ body {
 }
 
 .navbar .navbar-nav .nav-link:hover {
-    border-bottom: 1px solid;
-    border-bottom-color: #18CAE6;
-    padding: 5px;
+    transition-duration: 0.35s;
 }
 
 .navbar-fixed-pos {
