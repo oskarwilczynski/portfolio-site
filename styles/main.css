@@ -243,14 +243,16 @@ h2 {
    box-shadow: none;
 }
 
-.projects-btn-bottom {
+.projects-btn-bottom, .contact-btn {
     cursor: pointer;
     color: #18CAE6;
     border-color: #18CAE6;
+    border-radius: 0;
 }
 
-.projects-btn-bottom:hover {
+.projects-btn-bottom:hover, .contact-btn:hover {
     background-color: #18CAE6;
+    border-color: #18CAE6;
 }
 
 /*
@@ -260,3 +262,16 @@ h2 {
 #contact {
     background-color: #050D10;
 }
+
+.contact-label {
+    color: white;
+}
+
+.contact-icon, .contact-global {
+    color: #18CAE6;
+    display: block;
+    font-size: 2vw;
+    margin: 1vw;
+}
+
+/* contact-btn class up in PROJECTS section */
