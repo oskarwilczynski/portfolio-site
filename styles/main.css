@@ -203,6 +203,7 @@ h2 {
 */
 
 #projects {
+    height: 170vw;
     background-color: #18CAE6;
 }
 
@@ -250,4 +251,12 @@ h2 {
 
 .projects-btn-bottom:hover {
     background-color: #18CAE6;
+}
+
+/*
+* === CONTACT ===
+*/
+
+#contact {
+    background-color: #050D10;
 }
