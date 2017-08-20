@@ -21,29 +21,16 @@ body {
 * === NAVBAR ===
 */
 
-.navbar {
+#navbar-custom {
     background-color: #050D10;
 }
 
-.navbar .navbar-nav .nav-link {
+.navbar-custom-link {
     color: #18CAE6;
 }
 
-.custom-toggler.navbar-toggler {
-    border-color: rgb(24, 202, 230);
-}
-
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(24, 202, 230, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link:focus,
-.navbar .navbar-nav .nav-item.active .nav-link {
+.navbar-custom-link:hover {
     color: white;
-}
-
-.navbar .navbar-nav .nav-link:hover {
     transition-duration: 0.35s;
 }
 
@@ -272,7 +259,12 @@ h2 {
     color: #18CAE6;
     display: inline-block;
     font-size: 2.5vw;
-    margin: 0.5vw;
+    margin: 1vw;
+}
+
+#contact-details-text {
+    color: white;
+    font-size: 2.5vw;
 }
 
 .contact-icon {
