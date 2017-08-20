@@ -261,17 +261,38 @@ h2 {
 
 #contact {
     background-color: #050D10;
+    height: 31vw;
 }
 
 .contact-label {
     color: white;
 }
 
-.contact-icon, .contact-global {
+#contact-details-icon {
     color: #18CAE6;
-    display: block;
+    display: inline-block;
+    font-size: 2.5vw;
+    margin: 0.5vw;
+}
+
+.contact-icon {
+    color: #18CAE6;
+    display: inline-block;
     font-size: 2vw;
-    margin: 1vw;
+    margin: 0.5vw;
+}
+
+.contact-icon-text {
+    display: inline-block;
+    color: white;
+    white-space: nowrap;
+    line-height: 2vw;
+    margin-bottom: 0.5vw;
+    margin-top: 0.5vw;
+}
+
+.contact-icon-text:hover {
+    color: #18CAE6;
 }
 
 /* contact-btn class up in PROJECTS section */
