@@ -14,6 +14,7 @@ html {
 }
 
 body {
+    position: relative;
     padding-top: 55px;
 }
 
@@ -26,12 +27,15 @@ body {
 }
 
 .navbar-custom-link {
+    font-size: 1.5vw;
     color: #18CAE6;
 }
 
-.navbar-custom-link:hover {
-    color: white;
+.nav-custom-item:hover, .active {
+    background-color: white;
     transition-duration: 0.35s;
+    border-bottom-style: solid;
+    border-bottom-color: #18CAE6;
 }
 
 .navbar-fixed-pos {
