@@ -24,18 +24,27 @@ body {
 
 #navbar-custom {
     background-color: #050D10;
+    height: 4vw;
 }
 
 .navbar-custom-link {
     font-size: 1.5vw;
+    letter-spacing: 0.25vw;
+    height: 4vw;
     color: #18CAE6;
 }
 
-.nav-custom-item:hover, .active {
-    background-color: white;
-    transition-duration: 0.35s;
+.navbar-custom-item {
+    height: 4vw;
+}
+
+.navbar-custom-link:hover {
+    color: white;
+}
+
+.navbar-custom-item:hover {
+    border-color: #18CAE6;
     border-bottom-style: solid;
-    border-bottom-color: #18CAE6;
 }
 
 .navbar-fixed-pos {
@@ -43,6 +52,12 @@ body {
     position: relative;
     top: -55px;
     visibility: hidden;
+}
+
+.active, .active:hover {
+    color: #18CAE6;
+    background-color: white;
+    border-bottom-style: solid;
 }
 
 /*
