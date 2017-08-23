@@ -30,12 +30,23 @@ body {
 .navbar-custom-link {
     font-size: 1.5vw;
     letter-spacing: 0.25vw;
+    line-height: 2.75vw;
     height: 4vw;
     color: #18CAE6;
 }
 
 .navbar-custom-item {
     height: 4vw;
+}
+
+.navbar-custom-icon {
+    font-size: 2vw;
+    color: #18CAE6;
+}
+
+.navbar-custom-icon:hover {
+    color: white;
+    transition-duration: 0.25s;
 }
 
 .navbar-custom-link:hover {
@@ -58,6 +69,7 @@ body {
     color: #18CAE6;
     background-color: white;
     border-bottom-style: solid;
+    transition: background-color 0.75s;
 }
 
 /*
