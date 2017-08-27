@@ -148,7 +148,6 @@ body {
 
 #about {
     background-color: #18CAE6;
-    height: 32vw;
 }
 
 .header-dark, h1 {
@@ -186,7 +185,6 @@ h2 {
 
 #skills {
     background-color: #050D10;
-    height: 42vw;
 }
 
 .skills-row {
@@ -246,6 +244,10 @@ h2 {
     text-decoration-color: #18CAE6;
 }
 
+.projects-card-text {
+    font-size: 1.17vw;
+}
+
 .projects-btn-top {
     border-style: none;
     color: #050D10;
@@ -284,7 +286,6 @@ h2 {
 
 #contact {
     background-color: #050D10;
-    height: 31vw;
 }
 
 .contact-label {
@@ -311,6 +312,7 @@ h2 {
 }
 
 .contact-icon-text {
+    font-size: 1.17vw;
     display: inline-block;
     color: white;
     white-space: nowrap;
