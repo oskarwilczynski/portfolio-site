@@ -442,4 +442,83 @@ h2 {
         letter-spacing: 0.44vw;
         margin-bottom: 1.17vw;
     }
+
+    /*
+    * === SKILLS ===
+    */
+
+    .skills-row {
+        margin-top: 4%;
+    }
+
+    .skill-icon {
+        font-size: 10vw;
+    }
+
+    .skill-icon-title {
+        margin-top: 1.1vw;
+        margin-bottom: 1.17vw;
+        font-size: 3vw;
+    }
+
+    /*
+    * === PROJECTS ===
+    */
+
+    .projects-card-title {
+        font-size: 5vw;
+    }
+
+    .projects-card-text {
+        font-size: 3vw;
+    }
+
+    .projects-btn-top {
+        border-style: none;
+        color: #050D10;
+        border-radius: 100px;
+        height: 2vw;
+        margin-bottom: 0.5vw;
+        line-height: 0;
+    }
+
+    /*
+    * === CONTACT ===
+    */
+
+    /* contact-btn class up in PROJECTS section */
+
+    #contact-details-icon {
+        display: inline-block;
+        color: #18CAE6;
+        display: inline-block;
+        font-size: 5vw;
+        margin: 1vw;
+    }
+
+    #contact-details-text {
+        color: white;
+        font-size: 5vw;
+    }
+
+    .contact-icon {
+        color: #18CAE6;
+        display: inline-block;
+        font-size: 2vw;
+        margin: 0.5vw;
+    }
+
+    .contact-icon-text {
+        font-size: 1.17vw;
+        display: inline-block;
+        color: white;
+        white-space: nowrap;
+        line-height: 2vw;
+        margin-bottom: 0.5vw;
+        margin-top: 0.5vw;
+    }
+
+    .contact-icon-text:hover {
+        color: #18CAE6;
+    }
 }
