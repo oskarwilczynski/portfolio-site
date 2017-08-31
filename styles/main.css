@@ -237,6 +237,7 @@ h2 {
 .projects-card {
     background-color: #050D10;
     color: white;
+    width: 75%;
     border-radius: 0;
     border-style: none;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -465,8 +466,18 @@ h2 {
     * === PROJECTS ===
     */
 
+    .projects-card {
+        background-color: #050D10;
+        color: white;
+        width: 100%;
+        border-radius: 0;
+        border-style: none;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+
     .projects-card-title {
-        font-size: 5vw;
+        font-size: 7vw;
+        margin-bottom: 3vw;
     }
 
     .projects-card-text {
@@ -478,7 +489,8 @@ h2 {
         color: #050D10;
         border-radius: 100px;
         height: 2vw;
-        margin-bottom: 0.5vw;
+        font-size: 3.2vw;
+        margin-bottom: 3vw;
         line-height: 0;
     }
 
@@ -517,7 +529,7 @@ h2 {
         color: white;
         white-space: nowrap;
         line-height: 6vw;
-        margin-left: 5vw;
+        margin-left: 5.5vw;
     }
 
     .contact-icon-text:hover {
