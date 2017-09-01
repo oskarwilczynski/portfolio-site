@@ -65,7 +65,7 @@ body {
 .navbar-fixed-pos {
     display: block;
     position: relative;
-    top: 4vw;
+    top: -4vw;
     visibility: hidden;
 }
 
@@ -88,7 +88,12 @@ body {
     background-size: cover;
 }
 
-#hello-header {
+#jumbotron-header-div {
+    width: 100%;
+    max-width: 100%;
+}
+
+#jumbotron-header {
     position: relative;
     padding-top: 0;
     padding-bottom: 0;
@@ -98,7 +103,7 @@ body {
     display: inline-block;
     margin: 0 auto;
     padding-top: 5.5vw;
-    font-size: 3.3vw;
+    font-size: 3.8vw;
     overflow: hidden;
     font-weight: bold;
     text-shadow: black 0px 0px 10px;
@@ -311,9 +316,9 @@ h2 {
 
 .contact-icon {
     color: #18CAE6;
-    display: inline-block;
+    display: block;
     font-size: 2vw;
-    margin: 0.5vw;
+    line-height: 2.95vw;
 }
 
 .contact-icon-text {
@@ -398,13 +403,23 @@ h2 {
         border-bottom-style: none;
     }
 
+    .navbar-fixed-pos {
+        top: 0;
+    }
+
+
     /*
     * === JUMBOTRON ===
     */
 
-    #hello-header {
+    #jumbotron-header-div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #jumbotron-header {
         padding-top: 2vw;
-        font-size: 3.3vw;
+        font-size: 3.6vw;
     }
 
     /*
@@ -519,7 +534,7 @@ h2 {
         color: #18CAE6;
         display: inline-block;
         font-size: 5vw;
-        margin: 1vw;
+        line-height: 7vw;
         margin-left: 3vw;
     }
 

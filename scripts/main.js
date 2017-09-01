@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
-    const typed = new Typed("#hello-header", {
+    const typed = new Typed("#jumbotron-header", {
         strings: ["Hello...^1000\n\nAnd welcome to my world of web development."],
-        typeSpeed: 25,
+        typeSpeed: 20,
         cursorChar: "_"
     });
 
