@@ -1,5 +1,5 @@
 *:not(input):not(textarea) {
-    font-family: "Consolas";
+    font-family: "Consolas", "Helvetica", monospace;
     -webkit-touch-callout: none;
       -webkit-user-select: none;
        -khtml-user-select: none;
@@ -99,7 +99,9 @@ body {
     padding-bottom: 0;
     color: white;
     text-decoration: underline;
+        -webkit-text-decoration: underline;
     text-decoration-color: #18CAE6;
+        -webkit-text-decoration-color: #18CAE6;
     display: inline-block;
     margin: 0 auto;
     padding-top: 5.5vw;
@@ -165,7 +167,9 @@ body {
     margin-bottom: 0.59vw;
     color: white;
     text-decoration: underline;
+        -webkit-text-decoration: underline;
     text-decoration-color: #18CAE6;
+        -webkit-text-decoration-color: #18CAE6;
 }
 
 .header-light {
@@ -174,7 +178,9 @@ body {
     margin-bottom: 0.59vw;
     color: white;
     text-decoration: underline;
+        -webkit-text-decoration: underline;
     text-decoration-color: #050D10;
+        -webkit-text-decoration-color: #050D10;
 }
 
 h2 {
@@ -213,7 +219,9 @@ h2 {
     font-size: 2vw;
     color: white;
     text-decoration: underline;
+        -webkit-text-decoration: underline;
     text-decoration-color: #18CAE6;
+        -webkit-text-decoration-color: #18CAE6;
     transition: opacity 0.5s;
 }
 
@@ -251,7 +259,9 @@ h2 {
 .projects-card-title {
     font-size: 3vw;
     text-decoration: underline;
+        -webkit-text-decoration: underline;
     text-decoration-color: #18CAE6;
+        -webkit-text-decoration-color: #18CAE6;
 }
 
 .projects-card-text {
@@ -436,7 +446,9 @@ h2 {
         margin-bottom: 0.59vw;
         color: white;
         text-decoration: underline;
+            -webkit-text-decoration: underline;
         text-decoration-color: #18CAE6;
+            -webkit-text-decoration-color: #18CAE6;
     }
 
     .header-light {
@@ -445,7 +457,9 @@ h2 {
         margin-bottom: 0.59vw;
         color: white;
         text-decoration: underline;
+            -webkit-text-decoration: underline;
         text-decoration-color: #050D10;
+            -webkit-text-decoration-color: #050D10;
     }
 
     h2 {
