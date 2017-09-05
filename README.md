@@ -1,4 +1,4 @@
-![Screenshot](https://snag.gy/nmKj4s.jpg)
+![Screenshot](https://snag.gy/ix8bHW.jpg)
 
 # Portfolio Site
 My personal site to show off my projects. Built with Bootstrap and a bit of jQuery.
