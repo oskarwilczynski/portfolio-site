@@ -288,13 +288,13 @@ h2 {
 
 .projects-btn-bottom, .contact-btn {
     cursor: pointer;
-    color: #18CAE6 !important;
+    color: #18CAE6;
     border-color: #18CAE6;
     border-radius: 0;
 }
 
 .projects-btn-bottom:hover, .contact-btn:hover {
-    color: white !important;
+    color: white;
     background-color: #18CAE6;
     border-color: #18CAE6;
 }
