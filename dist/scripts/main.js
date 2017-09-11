@@ -1,0 +1,3 @@
+// To see the unminified version visit https://github.com/oskarwilczynski/portfolio-site/blob/master/scripts/main.js
+
+"use strict";$(document).ready(function(){new Typed("#jumbotron-header",{strings:["Hello...^1000\n\nAnd welcome to my world of web development."],typeSpeed:20,cursorChar:"_"});$("a[href*=\\#]").click(function(){return $("html, body").animate({scrollTop:$($(this).attr("href")).offset().top},750),!1})});

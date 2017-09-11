@@ -1,4 +1,4 @@
-*:not(input):not(textarea) {
+* {
     font-family: "Consolas", "Helvetica", monospace;
     -webkit-touch-callout: none;
       -webkit-user-select: none;
@@ -6,6 +6,15 @@
          -moz-user-select: none;
           -ms-user-select: none;
               user-select: none;
+}
+
+.selectable, input, textarea {
+    -webkit-touch-callout: text;
+      -webkit-user-select: text;
+       -khtml-user-select: text;
+         -moz-user-select: text;
+          -ms-user-select: text;
+              user-select: text;
 }
 
 html {
