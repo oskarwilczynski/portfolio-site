@@ -7,6 +7,8 @@ My personal site to show off my projects. Built with Bootstrap and a bit of jQue
 * Fully Responsive Design with custom navbar for mobile devices.
 * Jumbotron created with [Typed.js](http://www.mattboldt.com/demos/typed-js/).
 * Contact form working with the help of [Formspree](https://formspree.io/).
+* Minified with Gulp (for distribution-ready directory click [here](https://github.com/oskarwilczynski/portfolio-site/tree/master/dist/projects/fitness-database)).
+
 
 ## Installation
 Live at [oskarwilczynski.com](http://oskarwilczynski.com/).
