@@ -212,11 +212,11 @@ h2 {
 }
 
 .skills-row {
-    margin-top: 4%;
+    margin-top: 1%;
 }
 
 .skill-icon {
-    font-size: 8vw;
+    font-size: 7vw;
     color: white;
     transition: color 0.5s;
 }
