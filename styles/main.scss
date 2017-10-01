@@ -1,0 +1,88 @@
+//colors
+$color-woodsmoke: #050d010;
+$color-scooter: #18cae6;
+
+//fonts
+$font-stack: "Consolas", "Helvetica", monospace;
+
+//urls
+$url-background: url(../images/jumbotron_bg.jpg);
+
+//RESETS
+* {
+    font-family: $font-stack;
+    user-select: none;
+}
+
+.selectable, input, textarea {
+    user-select: text;
+}
+
+html {
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+    padding-top: 4vw;
+}
+
+#navbar-custom {
+    background-color: $color-woodsmoke;
+    height: 4vw;
+}
+
+#navbar-custom-mobile {
+    display: none;
+}
+
+.navbar-custom-item {
+    height: 4vw;
+    &:hover {
+        border-color: $color-scooter;
+        border-bottom-style: solid;
+    }
+}
+
+.navbar-custom-link {
+    font-size: 1.5vw;
+    letter-spacing: 0.25vw;
+    line-height: 2.75vw;
+    height: 4vw;
+    color: $color-scooter;
+    &:hover {
+        color: white;
+    }
+}
+
+.navbar-custom-icon {
+    font-size: 2vw;
+    color: $color-scooter;
+    &:hover {
+        color: white;
+        transition-duration: 0.25s;
+    }
+}
+
+.navbar-fixed-pos {
+    display: block;
+    position: relative;
+    top: -4vw;
+    visibility: hidden;
+}
+
+.active, .active:hover {
+    color: #18CAE6;
+    background-color: white;
+    border-bottom-style: solid;
+    transition: background-color 0.75s;
+}
+
+.jumbotron {
+    height: 35vw;
+    margin-bottom: 0;
+    background-image: $url-background;
+    text-align: center;
+    background-size: cover;
+}
