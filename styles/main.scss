@@ -86,3 +86,71 @@ body {
     text-align: center;
     background-size: cover;
 }
+
+#jumbotron-header-div {
+    width: 100%;
+    max-width: 100%;
+}
+
+#jumbotron-header {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: $color-scooter;
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 5.5vw;
+    font-size: 3.8vw;
+    overflow: hidden;
+    font-weight: bold;
+    text-shadow: black 0 0 10px;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#about {
+    background-color: $color-scooter;
+}
+
+.header-dark {
+    padding-top: 1.93vw;
+    padding-bottom: 1.93vw;
+    margin-bottom: 0.59vw;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: $color-scooter;
+}
+
+h1 {
+    padding-top: 1.93vw;
+    padding-bottom: 1.93vw;
+    margin-bottom: 0.59vw;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: $color-scooter;
+}
+.header-light {
+    padding-top: 1.93vw;
+    padding-bottom: 1.93vw;
+    margin-bottom: 0.59vw;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: $color-scooter;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+.about-p {
+    font-size: 1.76vw;
+    color: white;
+    letter-spacing: 0.44vw;
+    margin-bottom: 1.17vw;
+}
