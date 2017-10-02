@@ -8,6 +8,15 @@ $font-stack: "Consolas", "Helvetica", monospace;
 //urls
 $url-background: url(../images/jumbotron_bg.jpg);
 
+//placeholders
+%headers {
+    padding-top: 1.93vw;
+    padding-bottom: 1.93vw;
+    margin-bottom: 0.59vw;
+    color: white;
+    text-decoration: underline;
+}
+
 //RESETS
 * {
     font-family: $font-stack;
@@ -118,30 +127,14 @@ body {
     background-color: $color-scooter;
 }
 
-.header-dark {
-    padding-top: 1.93vw;
-    padding-bottom: 1.93vw;
-    margin-bottom: 0.59vw;
-    color: white;
-    text-decoration: underline;
+.header-dark, h1 {
+    @extend %headers;
     text-decoration-color: $color-scooter;
 }
 
-h1 {
-    padding-top: 1.93vw;
-    padding-bottom: 1.93vw;
-    margin-bottom: 0.59vw;
-    color: white;
-    text-decoration: underline;
-    text-decoration-color: $color-scooter;
-}
 .header-light {
-    padding-top: 1.93vw;
-    padding-bottom: 1.93vw;
-    margin-bottom: 0.59vw;
-    color: white;
-    text-decoration: underline;
-    text-decoration-color: $color-scooter;
+    @extend %headers;
+    text-decoration-color: $color-woodsmoke;
 }
 
 h2 {
@@ -153,4 +146,292 @@ h2 {
     color: white;
     letter-spacing: 0.44vw;
     margin-bottom: 1.17vw;
+}
+
+#skills {
+    background-color: $color-woodsmoke;
+}
+
+.skills-row {
+    margin-top: 1%;
+}
+
+.skill-icon {
+    font-size: 7vw;
+    color: white;
+    transition: color 0.5s;
+}
+
+.skill-icon-title {
+    opacity: 0;
+    margin-top: 1.1vw;
+    margin-bottom: 1.17vw;
+    font-size: 2vw;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: $color-scooter;
+    transition: opacity 0.5s;
+}
+
+#projects {
+    background-color: $color-scooter;
+}
+
+.projects-img {
+    border-radius: 0;
+}
+
+.projects-card {
+    background-color: $color-woodsmoke;
+    color: white;
+    width: 75%;
+    border-radius: 0;
+    border-style: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.projects-card-title {
+    font-size: 3vw;
+    text-decoration: underline;
+    text-decoration-color: $color-scooter;
+}
+
+.projects-card-text {
+    font-size: 1.17vw;
+}
+
+.projects-btn-top {
+    border-style: none;
+    color: $color-woodsmoke;
+    border-radius: 100px;
+    height: 2vw;
+    margin-bottom: 0.5vw;
+    line-height: 0;
+    &:hover {
+        color: $color-woodsmoke;
+    }
+    &:active {
+        box-shadow: none;
+    }
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.projects-btn-bottom {
+    cursor: pointer;
+    color: $color-scooter;
+    border-color: $color-scooter;
+    border-radius: 0;
+    &:active {
+        box-shadow: none;
+    }
+    &:focus {
+        box-shadow: none;
+    }
+    &:hover {
+        color: white;
+        background-color: $color-scooter;
+        border-color: $color-scooter;
+    }
+}
+
+.contact-btn {
+    cursor: pointer;
+    color: $color-scooter;
+    border-color: $color-scooter;
+    border-radius: 0;
+    &:hover {
+        color: white;
+        background-color: $color-scooter;
+        border-color: $color-scooter;
+    }
+}
+
+#contact {
+    background-color: $color-woodsmoke;
+}
+
+.contact-label {
+    color: white;
+}
+
+#contact-details-icon {
+    color: $color-scooter;
+    display: inline-block;
+    font-size: 2.5vw;
+    margin: 0.5vw;
+}
+
+#contact-details-text {
+    color: white;
+    font-size: 2.5vw;
+}
+
+.contact-icon {
+    color: $color-scooter;
+    display: block;
+    font-size: 2vw;
+    line-height: 2.95vw;
+}
+
+.contact-icon-text {
+    font-size: 1.17vw;
+    display: inline-block;
+    color: white;
+    white-space: nowrap;
+    line-height: 2vw;
+    margin-bottom: 0.5vw;
+    margin-top: 0.5vw;
+    &:hover {
+        color: $color-scooter;
+    }
+}
+
+@media(max-width: 991px) {
+    body {
+        padding-top: 0;
+        padding-bottom: 12vw;
+    }
+
+    #navbar-custom {
+        display: none;
+    }
+
+    #navbar-custom-mobile {
+        display: table;
+        background-color: $color-woodsmoke;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #navbar-custom-nav {
+        display: table;
+        width: 100%;
+        margin: 0;
+    }
+
+    .navbar-custom-item {
+        height: 3vw;
+        display: table-cell;
+        text-align: center;
+        float: none;
+        width: 20%;
+        &:hover {
+            border-bottom-style: none;
+        }
+    }
+
+    .navbar-custom-icon {
+        font-size: 3vw;
+        color: $color-scooter;
+        padding: 2vw;
+        &:hover {
+            color: $color-scooter;
+        }
+    }
+
+    .navbar-custom-link {
+        font-size: 3vw;
+        letter-spacing: 0.25vw;
+        height: auto;
+        color: $color-scooter;
+        &:hover {
+            color: $color-scooter;
+        }
+    }
+
+    .navbar-fixed-pos {
+        top: 0;
+    }
+
+    #jumbotron-header-div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #jumbotron-header {
+        padding-top: 2vw;
+        font-size: 3.6vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    .about-p {
+        font-size: 3vw;
+    }
+
+    .skills-row {
+        margin-top: 4%;
+    }
+
+    .skill-icon {
+        font-size: 10vw;
+    }
+
+    .skill-icon-title {
+        font-size: 3vw;
+    }
+
+    .projects-card {
+        width: 100%;
+    }
+
+    .projects-card-title {
+        font-size: 7vw;
+        margin-bottom: 3vw;
+    }
+
+    .projects-card-text {
+        font-size: 3vw;
+    }
+
+    .projects-btn-top {
+        font-size: 3.2vw;
+        margin-bottom: 3vw;
+    }
+
+    #contact-details {
+        width: 200%;
+    }
+
+    #contact-details-icon {
+        font-size: 7vw;
+    }
+
+    #contact-details-text {
+        font-size: 7vw;
+    }
+
+    .contact-icon {
+        display: inline-block;
+        font-size: 5vw;
+        line-height: 7vw;
+        margin-left: 3vw;
+    }
+
+    .contact-icon-text {
+        font-size: 4vw;
+        line-height: 6vw;
+        margin-left: 5.5vw;
+    }
+}
+@-keyframes blink {
+    0%: ;
+}
+.skill-col:hover {
+    .skill-icon {
+        color: $color-scooter;
+        transition: color 0.5s;
+    }
+    .skill-icon-title {
+        opacity: 1;
+        transition: opacity 0.5s;
+    }
 }
