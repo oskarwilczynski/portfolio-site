@@ -37,6 +37,10 @@ body {
     padding-top: 4vw;
 }
 
+/*
+* === NAVBAR ===
+*/
+
 #navbar-custom {
     background-color: $color-woodsmoke;
     height: 4vw;
@@ -88,6 +92,10 @@ body {
     transition: background-color 0.75s;
 }
 
+/*
+* === JUMBOTRON ===
+*/
+
 .jumbotron {
     height: 35vw;
     margin-bottom: 0;
@@ -123,6 +131,10 @@ body {
     100% { opacity: 1; }
 }
 
+/*
+* === ABOUT ===
+*/
+
 #about {
     background-color: $color-scooter;
 }
@@ -148,6 +160,10 @@ h2 {
     margin-bottom: 1.17vw;
 }
 
+/*
+* === SKILLS ===
+*/
+
 #skills {
     background-color: $color-woodsmoke;
 }
@@ -172,6 +188,21 @@ h2 {
     text-decoration-color: $color-scooter;
     transition: opacity 0.5s;
 }
+
+.skill-col:hover {
+    .skill-icon {
+        color: $color-scooter;
+        transition: color 0.5s;
+    }
+    .skill-icon-title {
+        opacity: 1;
+        transition: opacity 0.5s;
+    }
+}
+
+/*
+* === PROJECTS ===
+*/
 
 #projects {
     background-color: $color-scooter;
@@ -236,6 +267,10 @@ h2 {
     }
 }
 
+/*
+* === CONTACT ===
+*/
+
 .contact-btn {
     cursor: pointer;
     color: $color-scooter;
@@ -288,11 +323,19 @@ h2 {
     }
 }
 
+/*
+* === MEDIA QUERIES < 992px ===
+*/
+
 @media(max-width: 991px) {
     body {
         padding-top: 0;
         padding-bottom: 12vw;
     }
+
+    /*
+    * === NAVBAR ===
+    */
 
     #navbar-custom {
         display: none;
@@ -349,6 +392,10 @@ h2 {
         top: 0;
     }
 
+    /*
+    * === JUMBOTRON ===
+    */
+
     #jumbotron-header-div {
         padding-left: 0;
         padding-right: 0;
@@ -359,6 +406,10 @@ h2 {
         font-size: 3.6vw;
     }
 
+    /*
+    * === ABOUT ===
+    */
+
     h2 {
         font-size: 5vw;
     }
@@ -366,6 +417,10 @@ h2 {
     .about-p {
         font-size: 3vw;
     }
+
+    /*
+    * === SKILLS ===
+    */
 
     .skills-row {
         margin-top: 4%;
@@ -378,6 +433,10 @@ h2 {
     .skill-icon-title {
         font-size: 3vw;
     }
+
+    /*
+    * === PROJECTS ===
+    */
 
     .projects-card {
         width: 100%;
@@ -396,6 +455,10 @@ h2 {
         font-size: 3.2vw;
         margin-bottom: 3vw;
     }
+
+    /*
+    * === CONTACT ===
+    */
 
     #contact-details {
         width: 200%;
@@ -420,18 +483,5 @@ h2 {
         font-size: 4vw;
         line-height: 6vw;
         margin-left: 5.5vw;
-    }
-}
-@-keyframes blink {
-    0%: ;
-}
-.skill-col:hover {
-    .skill-icon {
-        color: $color-scooter;
-        transition: color 0.5s;
-    }
-    .skill-icon-title {
-        opacity: 1;
-        transition: opacity 0.5s;
     }
 }
