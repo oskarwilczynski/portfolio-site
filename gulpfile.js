@@ -2,11 +2,11 @@
 const
     // modules
     gulp = require("gulp"),
-    newer = require("gulp-newer"),
-    imagemin = require("gulp-imagemin"),
     header = require("gulp-header"),
     htmlmin = require("gulp-htmlmin"),
     cssnano = require("gulp-cssnano"),
+    sass = require("gulp-sass"),
+    autoprefixer = require("gulp-autoprefixer"),
     babel = require("gulp-babel"),
     uglify = require("gulp-uglify"),
     pump = require("pump");
@@ -27,7 +27,10 @@ const
     gulp.task("html-min", function(cb) {
         pump([
             gulp.src("index.html"),
-            htmlmin({collapseWhitespace: true}),
+            htmlmin({
+                collapseWhitespace: true,
+                conservativeCollapse: true
+            }),
             header("<!-- To see the unminified version visit https://github.com/oskarwilczynski/portfolio-site/blob/master/index.html -->\n\n"),
             gulp.dest("dist/")
         ], cb);
@@ -37,8 +40,10 @@ const
     gulp.task("css-min", function(cb) {
         pump([
             gulp.src("styles/main.css"),
+            sass(),
+            autoprefixer(),
             cssnano(),
-            header("/* To see the unminified version visit https://github.com/oskarwilczynski/portfolio-site/blob/master/styles/main.css */\n\n"),
+            header("/* To see the unminified version visit https://github.com/oskarwilczynski/portfolio-site/blob/master/styles/main.scss */\n\n"),
             gulp.dest("dist/styles/")
         ], cb);
     });
