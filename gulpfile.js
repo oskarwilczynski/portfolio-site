@@ -52,7 +52,7 @@ const
     gulp.task("js-min", function(cb) {
         pump([
             gulp.src("scripts/main.js"),
-            babel({presets: ["env"]}),
+            babel({presets: ["@babel/preset-env"]}),
             uglify(),
             header("// To see the unminified version visit https://github.com/oskarwilczynski/portfolio-site/blob/master/scripts/main.js\n\n"),
             gulp.dest("dist/scripts/")
