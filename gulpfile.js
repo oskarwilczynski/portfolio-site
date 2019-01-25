@@ -9,6 +9,7 @@ const
     autoprefixer = require("gulp-autoprefixer"),
     babel = require("gulp-babel"),
     uglify = require("gulp-uglify"),
+    imagemin = require("gulp-imagemin"),
     pump = require("pump");
 
     // development mode?
@@ -39,7 +40,7 @@ const
     // CSS processing
     gulp.task("css-min", function(cb) {
         pump([
-            gulp.src("styles/main.css"),
+            gulp.src("styles/main.scss"),
             sass(),
             autoprefixer(),
             cssnano(),
@@ -59,7 +60,15 @@ const
         ], cb);
     });
 
+    gulp.task("img-min", function(cb) {
+        pump([
+            gulp.src("images/*"),
+            imagemin(),
+            gulp.dest('dist/images/')
+        ], cb);
+    })
+
     // run all tasks
-    gulp.task("min-all", ["html-min", "css-min", "js-min"]);
+    gulp.task("min-all", gulp.parallel("html-min", "css-min", "js-min", "img-min"));
 
 ;
