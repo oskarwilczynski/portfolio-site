@@ -1,4 +1,17 @@
 {
-  "main.js": "static/js/main.ffb018bb.js",
-  "main.js.map": "static/js/main.ffb018bb.js.map"
+  "files": {
+    "main.js": "/PROJECTS/CITY-INFO/static/js/main.d3c9b4b7.chunk.js",
+    "main.js.map": "/PROJECTS/CITY-INFO/static/js/main.d3c9b4b7.chunk.js.map",
+    "runtime-main.js": "/PROJECTS/CITY-INFO/static/js/runtime-main.05c40685.js",
+    "runtime-main.js.map": "/PROJECTS/CITY-INFO/static/js/runtime-main.05c40685.js.map",
+    "static/js/2.cbdc8b2a.chunk.js": "/PROJECTS/CITY-INFO/static/js/2.cbdc8b2a.chunk.js",
+    "static/js/2.cbdc8b2a.chunk.js.map": "/PROJECTS/CITY-INFO/static/js/2.cbdc8b2a.chunk.js.map",
+    "index.html": "/PROJECTS/CITY-INFO/index.html",
+    "static/js/2.cbdc8b2a.chunk.js.LICENSE.txt": "/PROJECTS/CITY-INFO/static/js/2.cbdc8b2a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05c40685.js",
+    "static/js/2.cbdc8b2a.chunk.js",
+    "static/js/main.d3c9b4b7.chunk.js"
+  ]
 }

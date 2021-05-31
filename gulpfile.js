@@ -69,6 +69,6 @@ const
     })
 
     // run all tasks
-    gulp.task("min-all", gulp.parallel("html-min", "css-min", "js-min", "img-min"));
+    gulp.task("min-all", gulp.parallel("html-min", "css-min", "js-min"));
 
 ;
